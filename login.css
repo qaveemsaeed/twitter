@@ -1,0 +1,40 @@
+/* login section  */
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main .main{
+    margin-block:20%;
+}
+.login{
+    flex-direction: column;
+}
+.login form input{
+    display: block;
+    margin-block: 20px;
+    width: 100%;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border-color: rgb(164, 164, 164);
+}
+.login .othopt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+main div div button{
+    display: block;
+    width: 100%;
+    margin-block: 15px;
+    border-radius: 8pc;
+    border: none;
+    padding: 12px 25px;
+    background-color: #1DA1F2;
+}
